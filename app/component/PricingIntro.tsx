@@ -1,4 +1,3 @@
-
 export default function PricingIntro() {
   return (
     <div className="mx-auto mt-24  h-[12.63rem] w-[38rem] text-center text-[#161C2D]">

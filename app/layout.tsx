@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
-import { rubik } from "./fonts";
 import localFont from "next/font/local";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Brainwave Landing Page UI Kit",
+  description: "This is the landing page of Brainwave",
+};
 
 const gilroy = localFont({
   src: [
@@ -25,11 +29,6 @@ const gilroy = localFont({
   display: "swap",
 });
 
-
-export const metadata: Metadata = {
-  title: "Brainwave Landing Page UI Kit",
-  description: "This is the landing page of Brainwave",
-};
 
 export default function RootLayout({
   children,
