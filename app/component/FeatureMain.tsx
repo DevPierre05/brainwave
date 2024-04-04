@@ -1,4 +1,3 @@
-
 export default function FeatureMain() {
   return (
     <div className="mt-[4.5rem] grid grid-cols-3 gap-[2.18rem]">

@@ -1,5 +1,3 @@
-
-
 export default function BillOfferDeny({ detail }: {detail:string}) {
   return (
     <div className=" flex items-center gap-2 whitespace-nowrap">

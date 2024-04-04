@@ -1,11 +1,7 @@
 import clsx from "clsx";
 import { rubik } from "../fonts";
-import { HiOutlineCheck } from "react-icons/hi2";
-import { HiXMark } from "react-icons/hi2";
 import { HiArrowSmallRight } from "react-icons/hi2";
 import { ReactNode } from "react";
-import BillOfferTick from "./BillOfferTick";
-import BillOfferDeny from "./BillOfferDeny";
 
 interface PropTypes {
   title: string;
@@ -14,7 +10,12 @@ interface PropTypes {
   children: ReactNode;
 }
 
-export default function PricingOption({title, amount, bestOption=false, children}: PropTypes) {
+export default function PricingOption({
+  title,
+  amount,
+  bestOption = false,
+  children,
+}: PropTypes) {
   return (
     <div className="h-[37.75rem] w-[21.8rem] rounded-md border border-[#E7E9ED] px-[3.1rem] py-[2.3rem]">
       <h1 className="font-bold uppercase leading-4 tracking-[1.63px] text-[#473BF0]">
@@ -30,7 +31,7 @@ export default function PricingOption({title, amount, bestOption=false, children
         </span>
       </h1>
       <h4 className="mt-3 text-base">billed monthly</h4>
-      
+
       {children}
 
       <div

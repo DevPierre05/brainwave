@@ -1,4 +1,3 @@
-
 export default function PayPreferenceToggle() {
   return (
     <div className="flex w-[334px] items-center justify-center gap-4">
