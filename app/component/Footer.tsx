@@ -43,7 +43,7 @@ export default function Footer() {
       <div className="mt-[6.75rem] flex h-14 items-end justify-between border-t border-[#292F41]">
         <div className="flex gap-2 items-center">
           <p className="text-base text-white/65">
-            © 2024 Copyright, All Right Reserved, Made by Seju_ui_ux with{" "}
+            © 2024 Copyright, All Right Reserved, Coded by Peter Osei with{" "}
           </p>
           <svg
             width="14"
