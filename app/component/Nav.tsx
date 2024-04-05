@@ -2,7 +2,7 @@ import { rubik } from "../fonts";
 
 export default function Nav() {
   return (
-    <nav className="w-[1100px] h-[50px] mx-auto mt-4 flex justify-between items-center">
+    <nav className="w-[68.75rem] h-[3.13rem] mx-auto mt-4 flex justify-between items-center">
       <div className="flex items-center">
         <h1
           className={`${rubik.className} text-2xl font-bold leading-7 tracking-tightLogo`}
@@ -20,7 +20,7 @@ export default function Nav() {
         </ul>
         <div className="flex gap-8">
           <button className="">Sign In</button>
-          <button className="bg-[#473BF0] w-[124px] h-[50px] text-white rounded-md">
+          <button className="bg-[#473BF0] w-[7.75rem] h-[3.13rem] text-white rounded-md">
             Sign Up
           </button>
         </div>
