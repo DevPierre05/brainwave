@@ -1,5 +1,6 @@
 import { companyLogos } from "../constants";
 
+
 const CompanyLogos = ({ className }) => {
   return (
     <div className={className}>
@@ -12,7 +13,7 @@ const CompanyLogos = ({ className }) => {
             className="flex items-center justify-center flex-1 h-[8.5rem]"
             key={index}
           >
-            <img src={logo} width={134} height={28} alt={logo} />
+            <img src={logo} width={80} height={28} alt={logo} />
           </li>
         ))}
       </ul>

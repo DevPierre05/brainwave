@@ -33,8 +33,24 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
+
 } from "../assets";
+
+import netflix from "../assets/netflix.svg";
+import starbucks from "../assets/starbucks.svg"
+import youtube from "../assets/youtube.svg"
+import gucci from "../assets/gucci.svg"
+import apple from "../assets/apple.svg"
+
+//Benefit bgUrl
+import card1 from "../assets/benefits/card-1.svg";
+import card2 from "../assets/benefits/card-2.svg";
+import card3 from "../assets/benefits/card-3.svg";
+import card4 from "../assets/benefits/card-4.svg";
+import card5 from "../assets/benefits/card-5.svg";
+import card6 from "../assets/benefits/card-6.svg";
+
+
 
 export const navigation = [
   {
@@ -75,7 +91,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [netflix, starbucks, gucci, youtube, apple];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -241,12 +257,15 @@ export const pricing = [
   },
 ];
 
+
+
+
 export const benefits = [
   {
     id: "0",
     title: "Ask anything",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: card1,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
@@ -254,7 +273,7 @@ export const benefits = [
     id: "1",
     title: "Improve everyday",
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: card2,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
@@ -263,7 +282,7 @@ export const benefits = [
     id: "2",
     title: "Connect everywhere",
     text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    backgroundUrl: card3,
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
@@ -271,7 +290,7 @@ export const benefits = [
     id: "3",
     title: "Fast responding",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: card4,
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
@@ -280,7 +299,7 @@ export const benefits = [
     id: "4",
     title: "Ask anything",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: card5,
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
@@ -288,7 +307,7 @@ export const benefits = [
     id: "5",
     title: "Improve everyday",
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    backgroundUrl: card6,
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
